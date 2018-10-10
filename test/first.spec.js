@@ -1,12 +1,11 @@
 var chai = require('chai');  
-var assert = chai.assert;    // Using Assert style
-var expect = chai.expect;    // Using Expect style
-var should = chai.should();  
+var should = chai.should(); 
+
 function getTypeOfNumber(number){
     if(number % 2 != 0) return "impaire" ;
 return "paire";
 }
-  describe('#define if a number is paire or impaire ', function() {
+describe('#define if a number is paire or impaire ', function() {
     it('paire impaire number', function() {
         true.should.be.true;
     });
@@ -23,5 +22,5 @@ return "paire";
         getTypeOfNumber(3).should.equal("impaire");
     });
 
-  }); 
+}); 
   
