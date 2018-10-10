@@ -17,7 +17,7 @@ return "paire";
         getTypeOfNumber(1).should.equal("impaire");
     });
     it('#if 2 then its a paire number',()=>{
-        getTypeOfNumber(1).should.equal("impaire");
+        getTypeOfNumber(2).should.equal("paire");
     });
     it('#if 3 then its a impaire number');
 
