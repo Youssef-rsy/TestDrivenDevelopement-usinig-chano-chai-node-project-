@@ -4,11 +4,13 @@
 
 2- initializ your project : npm init -y
 
-3- install mocha :  npm install --global mocha
-	                  npm install --save-dev mocha
-	                  npm install mocha
+3- install mocha :  		npm install --global mocha
+
+	                  	npm install --save-dev mocha
+			  
+	                 	npm install mocha
                           
-4- Intall chai :    npm install chai 
+4- Intall chai :    		npm install chai 
 
 5- Configure package json on test with mocha    
         "scripts": { "test": "mocha" },
